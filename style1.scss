@@ -1,0 +1,177 @@
+$color_con3_span:#333333;
+
+
+%otionsmessenger {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+@mixin messen($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+%optionsbtn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+%optionsfon_con10 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+%option_texttable {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    max-width: 410px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@mixin cont7fonts($c, $bc, $fs, $p) {
+    color: $c;
+    background-color: $bc;
+    font-size: $fs;
+    padding: $p;
+}
+
+.container3 {
+    .textimage {
+        span {
+            color: $color_con3_span
+        }
+    }
+}
+
+.container7 {
+    .texttable1 {
+        display: block;
+        color: #ffffff;
+        font-size: 30px;
+        @extend %option_texttable
+    }
+}
+
+.container7 {
+    .texttable1_2 {
+        font-size: 11px;
+        color: #cccccc;
+        margin-top: 33px;
+        @extend %option_texttable
+    }
+}
+
+.container7 {
+    .text-imbg {
+        span {
+            color: $color_con3_span
+        }
+    }
+}
+
+.container7 {
+    .btntable {
+        a {
+            @extend %optionsbtn;
+            @include cont7fonts(#e1dac8, #8d7431, 10px, 10px 8px)
+        }
+    }
+}
+
+.container7 {
+    .btntable2 {
+        a {
+            @extend %optionsbtn;
+            @include cont7fonts(#e1dac8, #8d7431, 10px, 10px 8px)
+        }
+    }
+}
+
+.container7 {
+    .btntable2_2 {
+        a {
+            @extend %optionsbtn;
+            @include cont7fonts(#e1dac8, #8d7431, 10px, 10px 8px)
+        }
+    }
+}
+
+.container11 {
+    .twitter {
+        @extend %otionsmessenger;
+        @include messen(16px, 16px)
+    }
+}
+
+.container11 {
+    .facebook {
+        @extend %otionsmessenger;
+        @include messen(16px, 16px)
+    }
+}
+
+.container11 {
+    .dribbble {
+        @extend %otionsmessenger;
+        @include messen(16px, 16px)
+    }
+}
+
+.container11 {
+    .linkedin {
+        @extend %otionsmessenger;
+        @include messen(16px, 16px)
+    }
+}
+
+
+
+.container2 {
+    .text {
+        @extend %optionsfon_con10
+    }
+}
+
+.container3 {
+    .perfect {
+        h3 {
+            @extend %optionsfon_con10
+        }
+    }
+}
+
+.container3 {
+    .text3 {
+        @extend %optionsfon_con10
+    }
+}
+
+.container3 {
+    .textimage {
+        h3 {
+            @extend %optionsfon_con10
+        }
+    }
+}
+
+.container10 {
+    .cont {
+        h3 {
+            @extend %optionsfon_con10
+        }
+    }
+}
+
+.container10 {
+    .cont {
+        p {
+            @extend %optionsfon_con10
+        }
+    }
+}

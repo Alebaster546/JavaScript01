@@ -1,0 +1,122 @@
+.container11 .twitter,
+.container11 .facebook,
+.container11 .dribbble,
+.container11 .linkedin {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container7 .btntable a,
+.container7 .btntable2 a,
+.container7 .btntable2_2 a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 10px;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+
+.container2 .text,
+.container3 .perfect h3,
+.container3 .text3,
+.container3 .textimage h3,
+.container10 .cont h3,
+.container10 .cont p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.container7 .texttable1,
+.container7 .texttable1_2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  max-width: 410px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container3 .textimage span {
+  color: #333333;
+}
+
+.container7 .texttable1 {
+  display: block;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.container7 .texttable1_2 {
+  font-size: 11px;
+  color: #cccccc;
+  margin-top: 33px;
+}
+
+.container7 .text-imbg span {
+  color: #333333;
+}
+
+.container7 .btntable a {
+  color: #e1dac8;
+  background-color: #8d7431;
+  font-size: 10px;
+  padding: 10px 8px;
+}
+
+.container7 .btntable2 a {
+  color: #e1dac8;
+  background-color: #8d7431;
+  font-size: 10px;
+  padding: 10px 8px;
+}
+
+.container7 .btntable2_2 a {
+  color: #e1dac8;
+  background-color: #8d7431;
+  font-size: 10px;
+  padding: 10px 8px;
+}
+
+
+
+.container11 .twitter {
+  width: 16px;
+  height: 16px;
+}
+
+.container11 .facebook {
+  width: 16px;
+  height: 16px;
+}
+
+.container11 .dribbble {
+  width: 16px;
+  height: 16px;
+}
+
+.container11 .linkedin {
+  width: 16px;
+  height: 16px;
+}
+
+/*# sourceMappingURL=style1.css.map */
+.mob-menu {
+  display: none;
+  position: fixed;
+  top: 140px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  z-index: 10000;
+}
+
+.mob-menu ul {
+  padding: 20px;
+}
+
+.mob-menu ul li {
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}

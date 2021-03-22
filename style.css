@@ -1,0 +1,1621 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 97%;
+}
+
+.center {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myheader {
+    display: flex;
+    height: 140px;
+    background-color: #ebecee;
+    max-width: 100%;
+    justify-content: space-between;
+
+}
+
+.myheader .menu ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.myheader .menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.myheader .btn a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 25px 50px;
+    border-radius: 30px;
+    margin-bottom: 13px;
+
+}
+
+
+.myheader .logo {
+    display: flex;
+    margin-left: 3.75%;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.myheader .menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.myheader .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.container2 {
+    background-image: url(./image/baclground.png);
+    height: calc(100vh - 140px);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-color: #ebecee;
+    background-size: contain;
+    max-height: 100%;
+}
+
+.parallaxcon2 {
+    /* The image used */
+    background-image: url(./image/baclground.png);
+
+    /* Set a specific height */
+    min-height: 950px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container2 .start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 645px;
+
+    margin-left: 13.3%;
+    padding-top: 290px;
+}
+
+.container2 .text {
+    align-items: flex-start;
+    text-align: center;
+    height: 55px;
+    font-size: 60px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.container2 .btn2 {
+    display: flex;
+    align-items: center;
+    max-width: 275px;
+    height: 60px;
+    margin-top: 58px;
+}
+
+.container2 .btn2 a {
+
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 15px 90px;
+    border-radius: 30px;
+}
+
+.container3 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1210px;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 120px;
+}
+
+.container3 .text2 {
+    max-width: 1165px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.container3 .perfect h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #141311;
+    margin-top: 90px;
+}
+
+.container3 .text3 {
+    font-size: 14px;
+    text-align: center;
+    color: #4e4e4e;
+    margin-top: 30px;
+}
+
+.container3 .images {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.container3 .image-block {
+    display: block;
+    position: relative;
+    animation-name: muta;
+    animation-duration: 10s;
+
+}
+
+
+
+.container3 .image-item1,
+.image-item2,
+.image-item3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 370px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.image-item1 {
+    background-image: url(./image/Image01.png)
+}
+
+.image-item2 {
+    background-image: url(./image/Image02.png);
+}
+
+.image-item3 {
+    background-image: url(./image/Image03.png);
+}
+
+.container3 .text4 {
+    max-width: 300px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    height: 90px;
+}
+
+.container3 .textimage h3 {
+    font-size: 22px;
+    text-align: left;
+    color: #5c5c5c;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.container3 .textimage span {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* CONTAINER5 */
+
+.container5 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container5 .ves-content {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container5 .container333 {
+    max-width: 600px;
+    margin-right: 100px;
+}
+
+
+.container5 .planshet {
+    margin-top: 50px;
+    background-image: url(./image/planshet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1020px;
+    height: 635px;
+}
+
+
+.container5 .tema-project h2 {
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.container5 .tema-project p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #333333;
+}
+
+.container5 .icons-project {
+    margin-top: -60px;
+}
+
+.container5 .icons-project img {
+    color: #d2af50;
+    height: 55px;
+    margin-top: 65px;
+}
+
+.container5 .text-project span {
+    font-size: 22px;
+    font-weight: 400;
+    color: #111111;
+    margin-top: 55px;
+}
+
+.container5 .text-project p {
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 300;
+    color: #696969;
+}
+
+.container5 .container button {
+    margin-top: 60px;
+    border-radius: 35px;
+    width: 215px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container6 {
+    display: block;
+    background-image: url(./image/background-6.png);
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.container6 .row {
+    margin-top: 145px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-sec-6 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    margin-top: 245px;
+}
+
+.container6 .info {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.container6 .info h4 {
+    font-size: 22px;
+    color: #efefef;
+    margin-top: 35px;
+}
+
+.container6 .info p {
+    font-size: 14px;
+    color: #999999;
+    margin-top: 40px;
+}
+
+.container6 .info button {
+    margin-top: 70px;
+    border-radius: 30px;
+    width: 155px;
+    margin-bottom: 245px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.container6 .cosht {
+    color: #c89d28;
+    margin-top: 145px;
+}
+
+.container6 .cosht svg {
+    margin-bottom: 17px;
+    font-size: 30px;
+}
+
+.container6 .cosht span {
+    font-size: 60px;
+}
+
+
+
+.container7 {
+    min-height: 1080px;
+    width: 100%;
+    background-color: #e8e9ea;
+    margin: 0 auto;
+    display: block;
+}
+
+.container7 .text7 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    padding-top: 140px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container7 .tableimage {
+    min-height: 600px;
+    max-width: 1210px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+
+    margin-top: 70px;
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+
+}
+
+.container7 .block1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 600px;
+}
+
+.container7 .block2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    height: 600px;
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+
+}
+
+.container7 .block2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.container7 .table1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(./image/Image10.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .text1-1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 280px;
+}
+
+.container7 .btntable {
+    padding-top: 20px;
+}
+
+.container7 .table2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.container7 .btn1-2 {
+    display: flex;
+}
+
+.container7 .btntable2 {
+    padding-top: 20px;
+}
+
+
+.container7 .btntable2_2 {
+    margin-left: 5px;
+    padding-top: 20px;
+
+}
+
+
+.container7 .image-box-bg {
+
+    height: 204px;
+    background-image: url(./image/Image11.png);
+    width: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .text-imbg {
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+
+.container7 .text-imbg span {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+.container7 .table3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.container7 .image-box-bg3 {
+    height: 204px;
+    background-image: url(./image/Image12.png);
+    width: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .table4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.container7 .image-box-bg4 {
+    height: 204px;
+    background-image: url(./image/Image13.png);
+    width: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .table5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+
+}
+
+.container7 .image-box-bg5 {
+    height: 204px;
+    background-image: url(./image/Image14.png);
+    width: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container7 .btnknopka a {
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 25px 90px;
+    border-radius: 25px;
+}
+
+.container7 .btnknopka {
+    margin: 0 auto;
+    padding: 25px 90px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container9 {
+    max-width: 1920px;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container9 h3 {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #333333;
+    padding-top: 145px;
+}
+
+.container9 .logoimage {
+    margin: 0 auto;
+    max-width: 880px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.container9 .logofirm1,
+.logofirm2,
+.logofirm3,
+.logofirm4,
+.logofirm5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container9 .logofirm1 {
+    background-image: url(./image/Logo_7_1.png);
+}
+
+.container9 .logofirm2 {
+    background-image: url(./image/Logo_7_2.png);
+}
+
+.container9 .logofirm3 {
+    background-image: url(./image/Logo_7_3.png);
+}
+
+.container9 .logofirm4 {
+    background-image: url(./image/Logo_7_4.png);
+}
+
+.container9 .logofirm5 {
+    background-image: url(./image/Logo_7_5.png);
+}
+
+.container9 .comments {
+    max-width: 690px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.container9 .owl-carousel {
+    margin-bottom: 100px;
+    display: block;
+    justify-content: center;
+}
+
+.container9 .comments p {
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #333333;
+}
+
+.container9 .name {
+    max-width: 100%;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.container9 .fullname {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #333333;
+}
+
+.container9 .inc {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #b3b2b2;
+}
+
+.container9 .item {
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container10 {
+    background-image: url(./image/background-10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container10 .cont {
+    margin: 0 auto;
+    padding: 122px;
+    text-align: center;
+}
+
+.container10 .cont h3 {
+    color: #ffffff;
+
+    font-size: 30px;
+}
+
+.container10 .cont p {
+    color: #cccccc;
+    font-family: 'Ubuntu', sans-serif;
+
+    margin-top: 32px;
+}
+
+.container10 .cont button {
+    width: 175px;
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 13px;
+}
+
+.container11 {
+    background-image: url(./image/background-11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container11 .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-top: 170px;
+    text-align: center;
+}
+
+.container11 .block-cont1 {
+    max-width: 450px;
+    text-align: left;
+    margin: 0 auto;
+
+}
+
+.container11 .block-cont1 span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.container11 .block-cont1 p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 37px;
+}
+
+.container11 .messenger {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container11 .facebook {
+    background-image: url(./image/facebook.svg);
+
+}
+
+.container11 .twitter {
+    background-image: url(./image/twitter.svg);
+
+}
+
+.container11 .dribbble {
+    background-image: url(./image/dribbble.svg);
+
+}
+
+.container11 .linkedin {
+    background-image: url(./image/linkedin.svg);
+
+}
+
+.container11 .block-cont2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.container11 .menu-compani {
+    display: flex;
+    flex-direction: column;
+}
+
+.container11 .menu-compani span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.container11 .menu-compani a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #868686;
+    margin-top: 17px;
+}
+
+.container11 .content i {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 2px;
+    background: #1d1d1d;
+    margin-top: 3vh;
+}
+
+.container11 .textfooter {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #747474;
+    margin-top: 60px;
+    margin-left: 45px;
+    text-align: left;
+    margin-bottom: 134px;
+}
+
+.container11 .textfooter span {
+    color: #7c662c;
+}
+
+.container12 {
+    max-width: 1920px;
+    height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container12 .parallax {
+    /* The image used */
+    background-image: url('./image/avp1.jpg');
+    background-repeat: no-repeat;
+
+
+    /* Full height */
+    height: 100%;
+    max-width: 1920px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container12 .parallax2 {
+    /* The image used */
+    background-image: url('./image/6.jpg');
+    background-repeat: no-repeat;
+
+
+    /* Full height */
+    height: 100%;
+    max-width: 1920px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media(max-width:1400px) {
+    .container5 .container button {
+        margin-top: 10px;
+    }
+
+    .container11 .content i {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container5 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .container5 .container {
+        text-align: center;
+    }
+
+    .container5 .container333 {
+        margin: 0 auto;
+    }
+
+    .container5 .ves-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .container5 .tema-project h2,
+    p {
+        text-align: center;
+    }
+
+    .container5 .text-project p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .container5 .icons-project {
+        margin-top: -20px;
+    }
+
+
+
+    .container7 .tableimage {
+        height: 100%;
+        margin-top: 100px;
+    }
+
+    .container7 .text1-1 {
+        margin-top: 180px;
+    }
+
+    .container7 .texttable1 {
+        font-size: 25px;
+    }
+
+    .container7 .text-imbg {
+        margin-top: 10px;
+    }
+
+    .container7 .text-imbg span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1083px) {
+
+    .container7 .text1-1 {
+        margin-top: 70px;
+    }
+
+    .container11 .content {
+        padding-top: 40px;
+    }
+
+    .container11 .textfooter {
+        margin-bottom: 40px;
+    }
+
+    .container11 .block-cont1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container2 {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container2 .start {
+        padding-bottom: 90px;
+    }
+
+
+    .container2 .text {
+        font-size: 40px;
+    }
+
+    .container2 .text span {
+        color: rgb(235, 196, 21);
+    }
+
+    .container2 .btn2 a {
+
+
+        font-size: 12px;
+        padding: 10px 30px;
+        border-radius: 15px;
+    }
+
+
+    .container7 .text-imbg {
+        margin-bottom: 1px;
+    }
+
+
+    .container7 .tableimage {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat
+    }
+
+    .container7 .text1-1 {
+        margin-top: 80px;
+    }
+
+    .container7 .block1 {
+        max-height: 450px;
+    }
+
+    .container7 .texttable1 {
+        font-size: 20px;
+    }
+
+    .container7 .block2 {
+        width: 100%;
+
+    }
+
+    .container7 .table2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container7 .table3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container7 .table4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container7 .table5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .container7 .tableimage {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container7 .image-box-bg4,
+    .image-box-bg5,
+    .image-box-bg {
+        display: flex;
+        justify-content: left;
+    }
+
+    .container7 .btntable {
+        display: flex;
+        justify-content: left;
+    }
+
+
+
+    .container2 .text span {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .myheader .menu ul {
+        display: none;
+    }
+
+    .myheader .btn {
+        margin-bottom: 6px;
+    }
+
+
+    .myheader .show {
+        display: flex;
+    }
+
+    .myheader .show ul {
+        display: block;
+        width: 100px;
+        margin-top: 20px;
+        /* position: absolute; */
+    }
+
+    .myheader .burger {
+        display: inline-block;
+        width: 30px;
+        height: 25px;
+        background-color: white;
+    }
+
+    .myheader .burger i {
+        display: block;
+        width: 80%;
+        height: 4px;
+        background-color: black;
+        margin: 3px;
+    }
+
+    .container5 .planshet {
+        height: 500px;
+    }
+
+    .container5 .tema-project h2 {
+        font-size: 30px;
+    }
+
+    .container5 .tema-project p {
+        font-size: 15px;
+    }
+
+    .container5 .text-project span {
+        font-size: 25px;
+    }
+
+    .container5 .text-project p {
+        font-size: 15px;
+    }
+
+    .container6 .info p {
+        font-size: 12px;
+    }
+
+    .container5 .icons-project {
+        margin-top: -40px;
+    }
+
+    .container5 .icons-project img {
+        margin-top: 50px;
+    }
+
+    .container6 .text-sec-6 {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media(max-width:650px) {
+    .myheader .btn a {
+        font-size: 10px;
+        padding: 13px 30px;
+    }
+
+
+    /* 
+    .myheader .menu ul li a {
+        font-size: 13px;
+    }
+
+    .myheader .menu ul {
+        width: 250px;
+    } */
+
+    .container5 .planshet {
+        max-height: 400px;
+
+    }
+
+    .container5 .container button {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .container9 h3 {
+        padding-top: 70px;
+        font-size: 25px;
+    }
+
+    .container9 .comments {
+        margin-top: 50px;
+    }
+
+    .container9 .comments p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 630px) {
+    .container2 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container7 .block2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 600px) {
+    .container9 .item {
+        height: 300px;
+        width: 200px;
+        margin: 0 auto;
+        background-position: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container2 .start {
+        padding-top: 180px;
+    }
+
+    .text-sec-6 {
+        margin-top: 80px;
+        font-size: 30px;
+    }
+
+    .container6 .cosht {
+        margin-top: 30px;
+    }
+
+    .container6 .cosht span {
+        font-size: 30px;
+    }
+
+    .container6 .cosht svg {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .container6 .info p {
+        font-size: 15px;
+        color: #999999;
+        margin-top: 10px;
+    }
+
+    .container6 .info button {
+        margin-top: 20px;
+        border-radius: 30px;
+        width: 130px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+
+
+    .container10 .cont {
+        padding-top: 60px;
+        max-width: 400px;
+        padding: 50px;
+    }
+
+    .container10 .cont h3 {
+        font-size: 20px;
+    }
+
+    .container10 .cont p {
+        font-size: 14px;
+    }
+
+    .container10 .cont button {
+        padding: 5px;
+        font-size: 10px;
+        width: 70px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .myheader .btn {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+
+    .myheader .btn a {
+        font-size: 10px;
+        padding: 8px 15px;
+        border-radius: 10px;
+    }
+
+    /* .myheader .menu ul li a {
+        font-size: 10px;
+    }
+
+    .myheader .menu ul {
+        width: 140px;
+    } */
+
+    .container2 .container2 .start {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container3 .image-block {
+        max-width: 310px;
+    }
+
+
+    .container3 .textimage h3 {
+        font-size: 16px;
+    }
+
+    .container3 .textimage span {
+        font-size: 13px;
+        max-width: 280px;
+    }
+
+    .container3 .text-image {
+
+        max-width: 280px;
+    }
+
+    .container5 .planshet {
+        height: 300px;
+    }
+
+    .container7 .text1-1 {
+        margin-top: 80px;
+        max-height: 360px;
+
+
+    }
+
+    .container7 .texttable1 {
+        font-size: 22px;
+    }
+
+    .container7 .btnknopka a {
+        margin: 0 auto;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #333333;
+        padding: 15px 25px;
+        border-radius: 10px;
+    }
+
+
+
+    .container11 .block-cont1 {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .container11 .block-cont1 span {
+        font-size: 15px;
+    }
+
+    .container11 .block-cont1 p {
+        font-size: 11px;
+    }
+
+    .container11 .messenger {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    .container11 .menu-compani span {
+        font-size: 15px;
+    }
+
+    .container11 .menu-compani a {
+        margin-top: 10px;
+        font-size: 11px;
+    }
+
+    .container11 .textfooter {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .container5 .planshet {
+        height: 250px;
+    }
+
+    .container5 .icons-project {
+        margin-top: -55px;
+    }
+
+    .container5 .icons-project img {
+        height: 25px;
+        max-width: 20px;
+        margin-top: 65px;
+    }
+
+    .container5 .tema-project h2 {
+        font-size: 22px;
+    }
+
+    .container5 .tema-project p {
+        font-size: 12px;
+    }
+
+    .container5 .text-project span {
+        font-size: 20px;
+    }
+
+    .container5 .text-project p {
+        font-size: 12px;
+    }
+
+
+    .container6 .info p {
+        font-size: 10px;
+    }
+
+    .container6 .info button {
+        font-size: 7px;
+        width: 90px;
+    }
+
+    .container7 .text1-1 {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .container2 .image-item1,
+    .image-item2,
+    .image-item3 {
+        background-size: contain;
+    }
+}
+
+@keyframes muta {
+    0% {
+        left: 0px;
+        top: 0px
+    }
+
+    25% {
+        left: 300px;
+        top: 0px
+    }
+
+    50% {
+        left: 300px;
+        top: 300px
+    }
+
+    75% {
+        left: 0px;
+        top: 300px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
